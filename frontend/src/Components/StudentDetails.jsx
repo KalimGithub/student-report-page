@@ -2,7 +2,6 @@ import React from "react";
 import { MdOutlineMicExternalOn, MdContentCopy } from "react-icons/md";
 import { IoMdLock } from "react-icons/io";
 
-import hero from "../assets/hero1.png";
 function StudentDetails(student) {
   // console.log(student);
   return (
@@ -23,12 +22,13 @@ function StudentDetails(student) {
         </p>
         <p>Note: This link can be e-mailed and shared with others.</p>
       </div>
-      <div>
-        <MdOutlineMicExternalOn />
+      <div className="hero-right-side">
+        <span className="hero-icon">
+          <MdOutlineMicExternalOn />
+        </span>
         <p className="blue">
-          Speech<span className="darkblue">ace</span>
+          Speech<span className="darkblue">Ace</span>
         </p>
-        {/* <img src={hero} alt="hero" className="hero" /> */}
       </div>
     </div>
   );

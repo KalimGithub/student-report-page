@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   if (!report) {
-    return <p>Loading report....</p>;
+    return <p className="loader">Loading report....</p>;
   }
 
   return (
