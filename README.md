@@ -116,13 +116,10 @@ http://localhost:5000
 cd frontend
 npm install
 npm run dev
-
+````
 
 Backend runs on
 http://localhost:5137
-
-
-
 
 How Feedback Logic Works
 
@@ -142,13 +139,12 @@ Score ≥ 6 and < 7
 Score < 6
 → Needs improvement.
 
-
-
 Deployment
 
 Frontend: Vercel
 
 Backend: Render
+<<<<<<< Updated upstream
 ````
 
 =======
@@ -233,3 +229,5 @@ Score < 6
 
 Frontend: Vercel
 Backend: Render
+=======
+>>>>>>> Stashed changes
