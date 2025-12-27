@@ -5,6 +5,7 @@ The project focuses on frontend UI clarity, basic backend data handling, and log
 
 ---
 
+
 ## Tech Stack
 
 - Frontend: React, HTML, CSS, JavaScript
@@ -14,9 +15,8 @@ The project focuses on frontend UI clarity, basic backend data handling, and log
 
 ---
 
-## How to Run the Project
 
----
+## How to Run the Project
 
 ### Backend
 
@@ -26,10 +26,12 @@ npm install
 npm run start
 ````
 
+
 Backend runs on
 ````bash
-http://localhost:5000
+http://localhost:3000
 ````
+
 
 ### Frontend
 ```bash
@@ -38,18 +40,27 @@ npm install
 npm run dev
 ```
 
+
 Backend runs on
 ````bash
 http://localhost:5137
+
 ````
 
 
+This data is returned through a single API endpoint:
 
+````bash
+GET /api/report
+
+````
+
+---
 ### How Feedback Logic Works:
 
 Feedback is generated dynamically based on score ranges using conditional logic.
 
-## Score Ranges:
+#### Score Ranges:
 
 Score ≥ 8
 → Excellent performance.
@@ -64,7 +75,7 @@ Score < 6
 → Needs improvement.
 
 
-
+---
 ### Deployment:
 Frontend: Vercel
 Backend: Render
