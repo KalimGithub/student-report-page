@@ -2,9 +2,10 @@ import express from "express";
 import clc from "cli-color";
 import cors from "cors";
 import { reportData } from "./data/report.js";
-
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.get("/", (req, res) => {

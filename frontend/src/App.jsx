@@ -9,7 +9,7 @@ function App() {
   const [report, setReport] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/report")
+    fetch("https://student-report-page.onrender.com/api/report")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
